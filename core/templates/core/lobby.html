@@ -9,7 +9,7 @@
   <body>
     <h1>Lets Chat</h1>
     <script  type="text/javascript">
-        let url = `ws://${window.location.host}/ws/socket-server`
+        let url = `ws://${window.location.host}/ws/socket-server/`
         const chatSocket = new WebSocket(url)
 
         chatSocket.onmessage = function(e){
